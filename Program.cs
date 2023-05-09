@@ -14,7 +14,7 @@ return filteredArray;
 }
 static void Main()
 {
-Console.WriteLine("Введите элементы массива, разделенные пробелами:");
+Console.WriteLine("Введите элементы массива (разделенные пробелами):");
 string input = Console.ReadLine()!;
 string[] array = input.Split();
 
